@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.835,D:\Incoming\[.WORK]\Kaleidoscope Creator\Kaleidoscope Creator\pkaleido.dproj=D:\Incoming\[.WORK]\Kaleidoscope Creator\Kaleidoscope Creator\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.601,D:\Incoming\[.WORK]\D7_281.Kaleidoskop Creator v.0.72\Unit3.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.307,D:\Incoming\[.WORK]\Kaleidoscope Creator\Kaleidoscope Creator\ukaleido.dfm=D:\Incoming\[.WORK]\Kaleidoscope Creator\Kaleidoscope Creator\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.307,D:\Incoming\[.WORK]\Kaleidoscope Creator\Kaleidoscope Creator\ukaleido.pas=D:\Incoming\[.WORK]\Kaleidoscope Creator\Kaleidoscope Creator\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
