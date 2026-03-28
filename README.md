@@ -67,6 +67,13 @@ end;
 
 </br>
 
-# History:
+# Light polarization:
 In 1814, Sir David Brewster conducted experiments on [light polarization](https://en.wikipedia.org/wiki/Light_polarization) by successive reflections between plates of glass and first noted "the circular arrangement of the images of a candle round a center, and the multiplication of the sectors formed by the extremities of the plates of glass". He forgot about it, but noticed a more impressive version of the effect during further experiments in February 1815. A while later, he was impressed by the multiplied reflection of a bit of cement that was pressed through at the end of a triangular glass trough, which appeared more regular and almost perfectly symmetrical in comparison to the reflected objects that had been situated further away from the reflecting plates in earlier experiments. This triggered more experiments to find the conditions for the most beautiful and symmetrically perfect conditions. An early version had pieces of colored glass and other irregular objects fixed permanently and was admired by some Members of the Royal [Society of Edinburgh](https://en.wikipedia.org/wiki/Royal_Society_of_Edinburgh), including [Sir George Mackenzie](https://en.wikipedia.org/wiki/Sir_George_Mackenzie,_7th_Baronet) who predicted its popularity. A version followed in which some of the objects and pieces of glass could move when the tube was rotated. The last step, regarded as most important by Brewster, was to place the reflecting panes in a draw tube with a concave lens to distinctly introduce surrounding objects into the reflected pattern.
 
+### Example:
+
+</br>
+
+![Kaleidoscope](https://github.com/user-attachments/assets/dfc02790-cfe8-4e70-90cd-c0dce4bd7dfb)
+
+</br>
