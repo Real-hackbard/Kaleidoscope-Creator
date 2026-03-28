@@ -10,6 +10,7 @@
 
 </br>
 
+A kaleidoscope is an [optical instrument](https://en.wikipedia.org/wiki/Optical_instrument) with two or more reflecting surfaces (or mirrors) tilted to each other at an angle, so that one or more (parts of) objects on one end of these [mirrors](https://en.wikipedia.org/wiki/Mirror) are shown as a [symmetrical](https://en.wikipedia.org/wiki/Symmetry) pattern when viewed from the other end, due to repeated [reflection](https://en.wikipedia.org/wiki/Reflection_(physics)). These reflectors are often enclosed in a tube, usually containing on one end a cell with loose, colored pieces of glass or other transparent (and/or [opaque](https://en.wikipedia.org/wiki/Opacity)) materials to be reflected into the viewed pattern. Rotation of the cell causes motion of the materials, resulting in an ever-changing view being presented.
 
 
 
