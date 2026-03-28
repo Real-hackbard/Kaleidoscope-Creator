@@ -12,6 +12,13 @@
 
 A kaleidoscope is an [optical instrument](https://en.wikipedia.org/wiki/Optical_instrument) with two or more reflecting surfaces (or mirrors) tilted to each other at an angle, so that one or more (parts of) objects on one end of these [mirrors](https://en.wikipedia.org/wiki/Mirror) are shown as a [symmetrical](https://en.wikipedia.org/wiki/Symmetry) pattern when viewed from the other end, due to repeated [reflection](https://en.wikipedia.org/wiki/Reflection_(physics)). These reflectors are often enclosed in a tube, usually containing on one end a cell with loose, colored pieces of glass or other transparent (and/or [opaque](https://en.wikipedia.org/wiki/Opacity)) materials to be reflected into the viewed pattern. Rotation of the cell causes motion of the materials, resulting in an ever-changing view being presented.
 
+</br>
+
+![Kaleidoscope](https://github.com/user-attachments/assets/68f32b58-e714-4698-b084-006ade492b8d)
+
+</br>
+
+The term "kaleidoscope" was coined by its Scottish inventor [David Brewster](https://en.wikipedia.org/wiki/David_Brewster). It is derived from the [Ancient Greek](https://en.wikipedia.org/wiki/Ancient_Greek) word καλός (kalos), "beautiful, beauty", εἶδος (eidos), "form, appearance" and σκοπέω (skopeō), "to look, to examine", hence "observation of beautiful forms". It was first published in the patent that was granted on July 10, 1817.
 
 
 
