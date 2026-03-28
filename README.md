@@ -14,6 +14,11 @@ A kaleidoscope is an [optical instrument](https://en.wikipedia.org/wiki/Optical_
 
 </br>
 
+### Use:
+Move the mirror with the mouse or adjust it in X/Y using pixels.
+
+</br>
+
 ![Kaleidoscope](https://github.com/user-attachments/assets/68f32b58-e714-4698-b084-006ade492b8d)
 
 </br>
