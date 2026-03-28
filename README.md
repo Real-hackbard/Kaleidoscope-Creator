@@ -20,6 +20,47 @@ A kaleidoscope is an [optical instrument](https://en.wikipedia.org/wiki/Optical_
 
 The term "kaleidoscope" was coined by its Scottish inventor [David Brewster](https://en.wikipedia.org/wiki/David_Brewster). It is derived from the [Ancient Greek](https://en.wikipedia.org/wiki/Ancient_Greek) word καλός (kalos), "beautiful, beauty", εἶδος (eidos), "form, appearance" and σκοπέω (skopeō), "to look, to examine", hence "observation of beautiful forms". It was first published in the patent that was granted on July 10, 1817.
 
+# Calculation from an image:
+```pascal
+procedure TForm1.PaintBox1Paint(Sender: TObject);
+var
+  bitmap:tbitmap;
+  zrect,qrect:trect;
+  ii,jj,v,v1,v2,modu,anz:integer;
+  pu:array[0..4] of tpoint;
+type
+  TRGBArray = ARRAY[0..32767] OF TRGBTriple;
+  pRGBArray = ^TRGBArray;
+  TMyhelp = array[0..0] of TRGBQuad;
 
+procedure Drehen90Grad(xBitmap:TBitmap);
+var
+  P       : PRGBQuad;
+  x,y,b,h : Integer;
+  RowOut  : ^TMyHelp;
+  help    : TBitmap;
+BEGIN
+    xBitmap.PixelFormat := pf32bit;
+    help := TBitmap.Create;
+    help.PixelFormat := pf32bit;
+    b := xbitmap.Height;
+    h := xbitmap.Width;
+    help.Width := b;
+    help.height := h;
+    for y := 0 to (h-1) do
+    begin
+      rowOut := help.ScanLine[y];
+      P  := xBitmap.scanline[xbitmap.height-1];
+      inc(p,y);
+      for x := 0 to (b-1) do
+      begin
+        rowout[x] := p^;
+        inc(p,h);
+      end;
+    end;
+    xbitmap.Assign(help);
+    help.free;
+end;
+```
 
 
