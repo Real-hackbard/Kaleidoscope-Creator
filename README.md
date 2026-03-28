@@ -77,3 +77,9 @@ In 1814, Sir David Brewster conducted experiments on [light polarization](https:
 ![Kaleidoscope](https://github.com/user-attachments/assets/dfc02790-cfe8-4e70-90cd-c0dce4bd7dfb)
 
 </br>
+
+# General variations:
+* variations in size (Brewster deemed a length of five to ten inches convenient, for one to four inches he suggested the use of a lens with a focus length equal to the length of the reflectors)
+* variations in the angle of inclination of the reflecting surfaces. In his patent Brewster deemed 18°, 20° or 22 1/2° most pleasing. In the treatise 45°, 36° and 30° are the primary examples.
+* variations in material of the reflecting surfaces (plates of plain glass, quicksilvered glass (mirror) or metal, or the reflecting inner surfaces of a solid prism of glass or rock crystal) The choice of material can have some influence of the tint and the quality of the image.
+* a wide variety of objects, small figures, fragments, liquids and materials of different colors and shapes can be used in object cells (apart from the more usual transparent fragments, for instance twisted pieces of iron or brass wire, or some lace, can produce very fine effects).
