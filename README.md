@@ -67,6 +67,64 @@ end;
 
 </br>
 
+### Mirror:
+```pascal
+procedure SpiegelnHorizontal(Bitmap:TBitmap);
+var
+  i,j,w :  INTEGER;
+  RowIn :  pRGBArray;
+  RowOut:  pRGBArray;
+begin
+    w := bitmap.width*sizeof(TRGBTriple);
+    Getmem(rowin,w);
+    for j := 0 to Bitmap.Height-1 do
+    begin
+      move(Bitmap.Scanline[j]^,rowin^,w);
+      rowout := Bitmap.Scanline[j];
+      for i := 0 to Bitmap.Width-1 do rowout[i] := rowin[Bitmap.Width-1-i];
+    end;
+    bitmap.Assign(bitmap);
+    Freemem(rowin);
+end;
+```
+
+</br>
+
+### Triangle turning:
+```pascal
+procedure dreieckdrehen;
+type
+  SiCoDiType= record si, co, di:real; end;
+var
+  Center, NewCenter: record x,y:real end;
+  theta: real;
+  i: Integer;
+  Bitmap, NewBitMap: Tbitmap;
+function SiCoDiPoint ( const p1: tpoint; p2x,p2y:real ): SiCoDiType;
+var
+  dx, dy: real;
+begin
+    dx := ( p2x - p1.x );
+    dy := ( p2y - p1.y );
+    with RESULT do
+    begin
+      di := HYPOT( dx, dy );
+      if abs( di )<1 then
+      begin
+        si := 0.0;
+        co := 1.0
+      end
+      else
+      begin
+        si := dy/di;
+        co := dx/di
+      end;
+    end;
+end;
+```
+
+</br>
+
 # Light polarization:
 In 1814, Sir David Brewster conducted experiments on [light polarization](https://en.wikipedia.org/wiki/Light_polarization) by successive reflections between plates of glass and first noted "the circular arrangement of the images of a candle round a center, and the multiplication of the sectors formed by the extremities of the plates of glass". He forgot about it, but noticed a more impressive version of the effect during further experiments in February 1815. A while later, he was impressed by the multiplied reflection of a bit of cement that was pressed through at the end of a triangular glass trough, which appeared more regular and almost perfectly symmetrical in comparison to the reflected objects that had been situated further away from the reflecting plates in earlier experiments. This triggered more experiments to find the conditions for the most beautiful and symmetrically perfect conditions. An early version had pieces of colored glass and other irregular objects fixed permanently and was admired by some Members of the Royal [Society of Edinburgh](https://en.wikipedia.org/wiki/Royal_Society_of_Edinburgh), including [Sir George Mackenzie](https://en.wikipedia.org/wiki/Sir_George_Mackenzie,_7th_Baronet) who predicted its popularity. A version followed in which some of the objects and pieces of glass could move when the tube was rotated. The last step, regarded as most important by Brewster, was to place the reflecting panes in a draw tube with a concave lens to distinctly introduce surrounding objects into the reflected pattern.
 
